@@ -12,7 +12,7 @@ module.exports = {
   platform: 'gdmusic',
   version: '0.1',
   appVersion: '>=0.18.0',
-  sources: ['netease', 'kuwo'], // 同时拉取网易、酷我源，可以自行增删
+  sources: ['netease', 'kuwo', 'tencent', 'tidal', 'qobuz', 'joox', 'bilibili', 'apple', 'ytmusic', 'spotify'], // 同时拉取网易、酷我源，可以自行增删tencent、tidal、qobuz、joox、bilibili、apple、ytmusic、spotify
   supportQuality: ['128k', '320k'],
   // 搜索歌曲
   async searchMusic(keyword, page, limit) {
